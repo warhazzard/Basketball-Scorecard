@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+    font-size: 32px;
+    text-align: center;
+    font-family: Cursed Timer ULiL, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Cursed Timer ULiL;
+    align-content: center;  
+    width: 500px;
+    margin: auto;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D;
+    font-size: 90px;
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+#score-home {
+    padding-top: 10px;
+}
+
+#score-guest {
+    padding-top: 10px;
+}
+
+.all-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    height: 40px;
+    width: 155px;
+    
+}
+
+.btn {
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 40px;
+    font-family: Cursed Timer ULiL, Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 4px;
+}
+
+.reset-div {
+    display: flex;
+    justify-content: center;   
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reset-btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: #1B244A;
+    color: #F94F6D;
+    height: 40px;
+    width: 90px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
