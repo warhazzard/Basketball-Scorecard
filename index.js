@@ -20,22 +20,22 @@ const entries = [
  
 const myMap = new Map(entries);
 
-function increment(buttonName) {  
+function incrementScore(buttonName) {  
     console.log("Button clicked:", buttonName);
     let incrementValue = myMap.get(buttonName); 
     console.log("Increment value:", incrementValue);
     if (buttonName.startsWith("home")) {
-        let score = parseInt(scoreHome.textContent)
+        let score = parseInt(scoreHome.textContent, 10)
         score += incrementValue
         scoreHome.textContent = score
     } else if (buttonName.startsWith('guest')) {
-        let score = parseInt(scoreGuest.textContent)
+        let score = parseInt(scoreGuest.textContent, 10)
         score += incrementValue
         scoreGuest.textContent = score 
     }
-    }
+};
 
 function reset() {
     scoreGuest.textContent = 0
     scoreHome.textContent = 0
-}
+};
