@@ -1,13 +1,13 @@
-const home1 = document.getElementById("home+1")
-const home2 = document.getElementById("home+2")
-const home3 = document.getElementById("home+3")
+const home1 = document.getElementById("home+1");
+const home2 = document.getElementById("home+2");
+const home3 = document.getElementById("home+3");
 
-const guest1 = document.getElementById("guest+1")
-const guest2 = document.getElementById("guest+2")
-const guest3 = document.getElementById("guest+3")
+const guest1 = document.getElementById("guest+1");
+const guest2 = document.getElementById("guest+2");
+const guest3 = document.getElementById("guest+3");
 
-let scoreHome = document.getElementById("score-home")
-let scoreGuest = document.getElementById("score-guest")
+let scoreHome = document.getElementById("score-home");
+let scoreGuest = document.getElementById("score-guest");
 
 const entries = [
   ['home+1', 1],
@@ -36,8 +36,8 @@ function incrementScore(buttonName) {
 }
 
 function reset() {
-    scoreGuest.textContent = 0
-    scoreHome.textContent = 0
+    scoreGuest.textContent = 0;
+    scoreHome.textContent = 0;
 };
 
 // Ensure functions are accessible in the global scope
